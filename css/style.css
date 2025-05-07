@@ -1,0 +1,85 @@
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.product-card {
+    margin: 15px;
+    border: 1px solid #aaa;
+    padding: 15px;
+    border-radius: 5px;
+}
+.product-card span {
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+}
+.product-submit {
+    display: block;
+    width: 100%;
+    background-color: orange;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-submit:hover {
+    background-color: darkorange;
+}
+.product-card:hover {
+    border: 1px solid #555;
+}
+.product-name {
+    font-size: 18px;
+}
+a.cart-logo > span {
+    text-decoration: none;
+    color: dodgerblue;
+    display: inline-block;
+    border: 1px solid dodgerblue;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    line-height: 14px;
+    background-color: white;
+    position: absolute;
+}
+a.cart-logo {
+    margin-right: 20px;
+    position: relative;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.status {
+    text-align: center;
+    margin: 20px 0;
+}
+.cart table {
+    border-collapse: collapse;
+}
+.cart table tbody tr td {
+    padding: 5px 10px;
+}
+.cart table tbody tr td:first-child {
+    text-align: center;
+}
+.cart table tbody tr:last-child td {
+    text-align: left;
+}
+.btn-remove {
+    border: none;
+    background-color: transparent;
+    color: darkred;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.btn-remove:hover {
+    color: red;
+    text-decoration: underline;
+}
